@@ -21,7 +21,7 @@ else
 	if [[ $? -eq 0 ]]; then
 		echo -e "\e[1;32m[+] Modulos carregados!\e[0m"
 	else
-		echo "\e[1;31m[-] Houve um erro ao tentar carregar os modulos!\e[0m"
+		echo -e "\e[1;31m[-] Houve um erro ao tentar carregar os modulos!\e[0m"
 		exit 1
 	fi
 fi
